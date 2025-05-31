@@ -10,13 +10,11 @@
     </head>
 
     <body>
+        <header>
         <h1>My Goals for the Year</h1>
 
-       <h1>Hello World!</h1>
-
-       <hr>
-
-       <nav>
+       <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Primary navigation</h2>
             <ul>
                 <li>
                     <a href="#html">Learn HTML</a>
@@ -27,9 +25,11 @@
                 </li>
             </ul>
        </nav>
+       </header>
+
        <hr>
-       
-        <section id="html">
+       <main>
+        <article id="html">
 
        <h2>I'm Ready to Learn HTML</h2>
        <p>This is my first web page.</p>
@@ -49,11 +49,11 @@
             <li>...I plan out my Schedule</li>
             <li>...I use resourses from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr></li>
         </ol>
-        </section>
+        </article>
 
        <hr>
 
-       <section id="vacation">
+       <article id="vacation">
        <h2>I Am also Planning a Vacation</h2>
        <p>I've been working hard and <em>really need a getaway</em>.</p>
        
@@ -93,12 +93,16 @@
         <dt>Mountain Tops</dt>
         <dd>These are also cold.</dd>
        </dl>
-       </section>
+       </article>
+       </main>
        <hr>
-       &lt;&lt;&lt; &copy; <a href="about.html">Jerish Immanuel J</a> &gt;&gt;&gt;
-
-       <p>
-        <a href="#">Back to Top</a>
-       </p>
+       <footer>
+            <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Jerish Immanuel J</a> &gt;&gt;&gt;
+            </p>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+       </footer>
     </body>
 </html>
